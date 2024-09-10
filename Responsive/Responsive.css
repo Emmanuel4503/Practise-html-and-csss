@@ -1,0 +1,46 @@
+.div-1{
+    border: 2px solid;
+    margin: auto;
+}
+.head{
+    color: black;
+}
+.para{
+    color: black;
+}
+.image{
+    background-image: url('../MESSI.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10cm;
+    width: 10cm;
+}
+@media screen and ( max-width: 1000px) {
+.head{
+    color: red;
+}
+}
+@media screen and ( min-width: 1000px) {
+    .para{
+        color: blue;
+    }
+}
+ .div{
+    /* border: 2px solid;
+    height: 20cm; */
+margin-top: 20px;
+display: flex;
+}
+
+.left{
+    color: blue;
+}
+@media screen and ( max-width: 900px) {
+    .div{
+        flex-direction: column;
+    }
+}
+.right{
+    color: red;
+}
